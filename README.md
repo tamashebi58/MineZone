@@ -1,0 +1,2 @@
+# MineZone
+Minecraft Server Hosting
