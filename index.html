@@ -1,0 +1,84 @@
+<!doctype html>
+<html lang="ka">
+<head>
+<meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>MineZone.ge — აირჩიე სერვერი</title>
+<style>
+:root{--bg:#08090c;--card:#121217;--line:#292932;--green:#20ee89;--muted:#a1a1b3;--white:#f8f8fb}
+*{box-sizing:border-box}body{margin:0;background:var(--bg);color:var(--white);font-family:system-ui,-apple-system,Segoe UI,Arial,sans-serif}
+.top{position:sticky;top:0;z-index:2;background:#09090df2;border-bottom:1px solid #202027;padding:13px 16px;backdrop-filter:blur(12px)}
+.nav{max-width:900px;margin:auto;display:flex;align-items:center;justify-content:space-between;gap:12px}
+.brand{display:flex;align-items:center;gap:10px;font-size:20px;font-weight:900}.logo{width:39px;height:39px;border-radius:11px;display:grid;place-items:center;background:linear-gradient(135deg,#3bff9b,#07864e);color:#06120b;font-size:24px}
+.brand span em{font-style:normal;color:var(--green)}.tagline{font-size:10px;color:var(--muted);font-weight:500}
+.btn{display:inline-block;border:1px solid #34343d;border-radius:12px;padding:10px 14px;color:var(--white);background:#17171e;font-weight:750;text-decoration:none;cursor:pointer;font-size:14px}.btn.primary{background:var(--green);border-color:var(--green);color:#06120b}
+main{max-width:720px;margin:auto;padding:20px 15px 50px}
+.product{background:linear-gradient(140deg,#17171d,#0d0d12);border:1px solid #292932;border-radius:23px;padding:20px;margin-bottom:22px}
+.back{display:inline-block;color:#eee;text-decoration:none;background:#1b1b22;border:1px solid #35353e;border-radius:28px;padding:9px 14px;font-weight:700;font-size:14px}
+.titleline{display:flex;align-items:center;gap:12px;margin:20px 0 17px}.cube{font-size:30px;background:#1b3027;border-radius:12px;padding:9px}.titleline h1{font-size:27px;line-height:1.1;margin:0}.titleline p{color:var(--muted);margin:5px 0 0;font-size:13px}
+.toggle{display:flex;gap:4px;background:#050507;border:1px solid #25252d;padding:4px;border-radius:14px;width:max-content;max-width:100%}.toggle span{padding:11px 15px;border-radius:10px;font-size:14px;font-weight:800}.toggle .active{background:var(--green);color:#06120b}
+.plan{background:linear-gradient(145deg,#15151b,#0c0c11);border:1px solid #2c2c35;border-radius:23px;padding:20px;margin:16px 0;box-shadow:0 10px 30px #0003}
+.plan h2{margin:0 0 19px;font-size:27px;letter-spacing:-.5px}.plan h2 small{font-size:16px;color:var(--muted);letter-spacing:0}
+.specs{background:#050507;border-radius:15px;padding:15px 14px;display:grid;gap:12px}
+.spec{display:flex;justify-content:space-between;align-items:center;gap:12px;font-size:14px}.spec .label{color:var(--muted);font-weight:750;letter-spacing:.3px}.spec b{text-align:right;font-size:14px}
+.bottom{display:flex;justify-content:space-between;align-items:center;gap:12px;margin-top:19px;padding-top:17px;border-top:1px solid #25252c}.price{font-size:32px;font-weight:900;white-space:nowrap}.price small{font-size:14px;color:var(--muted);font-weight:650}.currency{color:var(--green)}.deploy{background:var(--green);color:#05130b;border:0;border-radius:12px;padding:13px 17px;font-size:15px;font-weight:900;cursor:pointer}
+.note{font-size:12px;color:var(--muted);line-height:1.6;margin:20px 3px}.result{display:none;background:#0d281b;border:1px solid #1a9258;border-radius:13px;padding:15px;margin-top:14px;line-height:1.7;font-size:14px}
+footer{border-top:1px solid #24242c;padding:22px 16px;color:var(--muted);font-size:12px;text-align:center}
+@media(min-width:760px){main{padding-top:30px}.plan{padding:24px}.titleline h1{font-size:32px}}
+@media(max-width:380px){.brand{font-size:17px}.nav .btn{padding:9px;font-size:12px}.plan{padding:16px}.spec{font-size:12px}.spec b{font-size:12px}.price{font-size:28px}.deploy{padding:12px;font-size:13px}.toggle span{padding:10px 11px}}
+</style>
+</head>
+<body>
+<header class="top"><div class="nav">
+<a class="brand" href="#" style="color:inherit;text-decoration:none"><span class="logo">▦</span><span>MineZone<em>.ge</em><span class="tagline" style="display:block">Your World. Your Server.</span></span></a>
+<a class="btn" href="#plans">შესვლა</a>
+</div></header>
+<main>
+<section class="product">
+<a class="back" href="#home">← მთავარი</a>
+<div class="titleline"><span class="cube">🧱</span><div><h1>Minecraft: Java Edition</h1><p>აირჩიე შენი სერვერის პაკეტი</p></div></div>
+<div class="toggle"><span class="active">ყოველთვიური</span><span>პაკეტები</span></div>
+</section>
+<div id="plans">
+<article class="plan">
+<h2>2 GB <small>Starter</small></h2>
+<div class="specs">
+<div class="spec"><span class="label">▣ &nbsp; COMPUTE</span><b>1 vCPU</b></div>
+<div class="spec"><span class="label">ϟ &nbsp; MEMORY</span><b>2 GB RAM</b></div>
+<div class="spec"><span class="label">▰ &nbsp; STORAGE</span><b>10 GB SSD*</b></div>
+<div class="spec"><span class="label">⌁ &nbsp; SOFTWARE</span><b>Paper</b></div>
+</div>
+<div class="bottom"><div class="price"><span class="currency">₾</span> 15 <small>/თვე</small></div><button class="deploy" data-plan="Starter">არჩევა →</button></div>
+</article>
+<article class="plan">
+<h2>4 GB <small>Standard</small></h2>
+<div class="specs">
+<div class="spec"><span class="label">▣ &nbsp; COMPUTE</span><b>2 vCPU*</b></div>
+<div class="spec"><span class="label">ϟ &nbsp; MEMORY</span><b>4 GB RAM</b></div>
+<div class="spec"><span class="label">▰ &nbsp; STORAGE</span><b>20 GB SSD*</b></div>
+<div class="spec"><span class="label">⌁ &nbsp; SOFTWARE</span><b>Paper</b></div>
+</div>
+<div class="bottom"><div class="price"><span class="currency">₾</span> 30 <small>/თვე</small></div><button class="deploy" data-plan="Standard">არჩევა →</button></div>
+</article>
+<article class="plan">
+<h2>6 GB <small>Premium</small></h2>
+<div class="specs">
+<div class="spec"><span class="label">▣ &nbsp; COMPUTE</span><b>3 vCPU*</b></div>
+<div class="spec"><span class="label">ϟ &nbsp; MEMORY</span><b>6 GB RAM</b></div>
+<div class="spec"><span class="label">▰ &nbsp; STORAGE</span><b>30 GB SSD*</b></div>
+<div class="spec"><span class="label">⌁ &nbsp; SOFTWARE</span><b>Paper</b></div>
+</div>
+<div class="bottom"><div class="price"><span class="currency">₾</span> 35 <small>/თვე</small></div><button class="deploy" data-plan="Premium">არჩევა →</button></div>
+</article>
+<div class="result" id="result" aria-live="polite"></div>
+<p class="note">* CPU და საცავის მონაცემები ამ ეტაპზე მხოლოდ დიზაინის მაგალითია და რეალური ჰოსტინგის რესურსებს არ ნიშნავს. ეს საიტი დემოა: შეკვეთის ღილაკი არ იღებს თანხას და ნამდვილ Minecraft სერვერს არ ქმნის.</p>
+</main>
+<footer>MineZone.ge · Your World. Your Server. · სატესტო ვებსაიტი</footer>
+<script>
+document.querySelectorAll('[data-plan]').forEach(btn=>btn.addEventListener('click',()=>{
+const info={Starter:'15 ₾/თვე · 2 GB RAM',Standard:'30 ₾/თვე · 4 GB RAM',Premium:'35 ₾/თვე · 6 GB RAM'};
+const box=document.getElementById('result');box.style.display='block';
+box.textContent='არჩეულია '+btn.dataset.plan+' — '+info[btn.dataset.plan]+'. ეს დემო შეკვეთაა; გადახდა და სერვერის შექმნა ჯერ ჩართული არ არის.';
+box.scrollIntoView({behavior:'smooth',block:'center'});
+}));
+</script>
+</body></html>
